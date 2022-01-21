@@ -13,9 +13,14 @@
 /*** Funktion mit Array als Parameter */
 // mögliche Tests:
 output(getSentence(["Ich","bin","Max"],"S"));
-output(getSentence(["Bist","du","Max"],"Q"));
-output(getSentence(["Ich","bin"],"E"));
-output(getSentence(["Ich","hätt","gern","die","Platt","von","dene","zwei","diwodaso","Spass","mache,"," habbe","Sie","die"],"Q"));
+output(getSentence(["Wer","du","bist"],"Q"));
+output(getSentence(["Wer","du","bist","will","ich","wissen?"],"E"));
+output(getSentence(["Ohaaaa"],"E"));
+
+function name(params) {
+    
+}
+
 function getSentence(arr,op) {
 
     const gap = " ";
